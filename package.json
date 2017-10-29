@@ -1,5 +1,5 @@
 {
-  "name": "Leadership Conference 2018",
+  "name": "leadershipConference",
   "version": "1.0.0",
   "description": "A template website for leadership conferences",
   "main": "app.js",
