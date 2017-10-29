@@ -70,7 +70,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'Sporta: High-End Sports Therapy',
+        title: 'Leadership Conference 2018',
         filename: './index.html',
         hash: true,
         template: './src/index.html'

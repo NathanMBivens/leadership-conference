@@ -1,7 +1,7 @@
 {
-  "name": "sporta",
+  "name": "Leadership Conference 2018",
   "version": "1.0.0",
-  "description": "A website showcasing a sports therapy facility",
+  "description": "A template website for leadership conferences",
   "main": "app.js",
   "author": "Nathan M. Bivens",
   "license": "ISC",
