@@ -63,7 +63,7 @@ module.exports = {
     historyApiFallback: true,
     contentBase: path.join(__dirname, "dist/"),
     hot: true,
-    port: 8080,
+    port: 8880,
     stats: {
       colors:true
     }
