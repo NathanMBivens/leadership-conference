@@ -1,3 +1,23 @@
+@import './mixins/_LCMIXINS';
 @import './normalize';
 @import './navigation_style';
 @import './headlineBanner_style';
+@import './about_style';
+@import './dates_style';
+@import './speakers_style';
+@import './schedule_style';
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+h1 {
+  font-family: 'Lora';
+}
+
+html {
+  font-family: 'Oswald';
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 21px;
+}

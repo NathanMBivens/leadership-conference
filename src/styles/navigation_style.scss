@@ -1,0 +1,43 @@
+//*** Navigation Styles ***//
+
+.navigation-bar {
+  height: 85px;
+  background: $lcGray;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5%;
+}
+
+.lc-button {
+  width: 15%;
+  border-radius: 45px;;
+  border-color: $lcWhite;
+  border-width: 4px;
+  border-style: solid;
+  padding: 10px 20px;
+  background-color: inherit;
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $lcWhite;
+  transition: all .3s ease-in-out;
+
+    &:hover {
+    background: darken($lcGray, 12%);
+    transform: scale(1.01);
+    }
+}
+
+.navigation-title {
+  color: $lcWhite;
+}
+
+.icon-navigation {
+  width: 15%;
+  color: $lcWhite;
+}

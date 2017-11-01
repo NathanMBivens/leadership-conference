@@ -1,0 +1,36 @@
+
+.about-section {
+  left: 0;
+  right: 0;
+  height: 300px;
+  padding: 10%;
+  display: flex;
+  background: $lcGray;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 60%;
+  height: inherit;
+}
+
+.about-section-title {
+  @extend h1;
+  @extend .navigation-title;
+  align-self: center;
+  margin-bottom: 20px;
+
+}
+
+.about-section-text {
+  text-align: justify;
+  margin-bottom: 25px;
+  color: $lcWhite;
+  font-weight: 400;
+  font-size: 15px;
+}
